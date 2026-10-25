@@ -1,0 +1,64 @@
+[
+  {
+    "temperature_label_K": 300,
+    "temperature_source": "deposit folder name only",
+    "member": "Cif_files_and_data/x_0p85/300_K/811900-mac-001_reb_0002.xye",
+    "sha256": "498fb418f94ed7a31db2ac3f119cf8fd4afc52d15b76ecd34620776f6ac474e5",
+    "rows": 75000,
+    "two_theta_range": [
+      0.0,
+      149.998
+    ],
+    "nonpositive_sigma_points": []
+  },
+  {
+    "temperature_label_K": 473,
+    "temperature_source": "deposit folder name only",
+    "member": "Cif_files_and_data/x_0p85/473_K/811998-mac-001_reb_0002.xye",
+    "sha256": "df9ef349affd99d814f5d381e345b76a365177a8e7d5eb6399b8c7887470435e",
+    "rows": 75000,
+    "two_theta_range": [
+      0.0,
+      149.998
+    ],
+    "nonpositive_sigma_points": [
+      0.19
+    ]
+  },
+  {
+    "temperature_label_K": 623,
+    "temperature_source": "deposit folder name only",
+    "member": "Cif_files_and_data/x_0p85/623_K/812085-mac-001_reb_0002.xye",
+    "sha256": "92f160a6636173a1d55f7df12a1e43feb1f265a6e9140b967e5e1526cd9527f4",
+    "rows": 75000,
+    "two_theta_range": [
+      0.0,
+      149.998
+    ],
+    "nonpositive_sigma_points": []
+  },
+  {
+    "temperature_label_K": 773,
+    "temperature_source": "deposit folder name only",
+    "member": "Cif_files_and_data/x_0p85/773_K/812171-mac-001_reb_0002.xye",
+    "sha256": "fd2681dfbcb72af3098e00c01232e13a56e5aedebe2a9326f5a27e7d58f79c40",
+    "rows": 75000,
+    "two_theta_range": [
+      0.0,
+      149.998
+    ],
+    "nonpositive_sigma_points": []
+  },
+  {
+    "temperature_label_K": 873,
+    "temperature_source": "deposit folder name only",
+    "member": "Cif_files_and_data/x_0p85/873_K/812231-mac-001_reb_0002.xye",
+    "sha256": "af292562ac721cab027ff59f9e0b725a8f203ed5bead1142e4ddf2fe9df8848a",
+    "rows": 75000,
+    "two_theta_range": [
+      0.0,
+      149.998
+    ],
+    "nonpositive_sigma_points": []
+  }
+]

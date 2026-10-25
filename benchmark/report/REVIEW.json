@@ -1,0 +1,17 @@
+{
+  "reviewed_utc": "2026-10-25T17:56:16.171264+00:00",
+  "pdf_pages": 2,
+  "pages_visually_inspected": [
+    1,
+    2
+  ],
+  "latex_warnings": [],
+  "status": "PASS",
+  "notes": "Final two pages rendered at 1.5x and inspected; text, tables, occupation diagram, native Rust observation figure and footers have no clipping or overlap.",
+  "files": {
+    "REPORT.pdf": "48b698bbed5f500c34eaf1e01782edffe3f6a7d79af130bc6fc5dc9f911110a9",
+    "REPORT.tex": "7d167906991a501115f6906e1cdf0b1e4c8b7124526d5544d478c5cef61f4e16",
+    "REPORT-page-1.png": "c431cc45639a392ec0c56dfc60a0f1bb02c6b84cc47df52d2eb42a56a249ff6e",
+    "REPORT-page-2.png": "15dd7063c5d3de38ce315fa7663d5bda7f65e3f6398f61526c57185022a5d4b0"
+  }
+}

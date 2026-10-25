@@ -1,0 +1,86 @@
+{
+  "renderer": "Powder Plot native Rust SVG exporter",
+  "binary_sha256": "448a6032e06c4f8c89985646c9cff12871bac4b87fd80b9f29bc36b5fedb882d",
+  "inputs": [
+    {
+      "temperature_label_K": 300,
+      "temperature_source": "deposit folder name only",
+      "member": "Cif_files_and_data/x_0p85/300_K/811900-mac-001_reb_0002.xye",
+      "sha256": "498fb418f94ed7a31db2ac3f119cf8fd4afc52d15b76ecd34620776f6ac474e5",
+      "rows": 75000,
+      "two_theta_range": [
+        0.0,
+        149.998
+      ],
+      "nonpositive_sigma_points": []
+    },
+    {
+      "temperature_label_K": 473,
+      "temperature_source": "deposit folder name only",
+      "member": "Cif_files_and_data/x_0p85/473_K/811998-mac-001_reb_0002.xye",
+      "sha256": "df9ef349affd99d814f5d381e345b76a365177a8e7d5eb6399b8c7887470435e",
+      "rows": 75000,
+      "two_theta_range": [
+        0.0,
+        149.998
+      ],
+      "nonpositive_sigma_points": [
+        0.19
+      ]
+    },
+    {
+      "temperature_label_K": 623,
+      "temperature_source": "deposit folder name only",
+      "member": "Cif_files_and_data/x_0p85/623_K/812085-mac-001_reb_0002.xye",
+      "sha256": "92f160a6636173a1d55f7df12a1e43feb1f265a6e9140b967e5e1526cd9527f4",
+      "rows": 75000,
+      "two_theta_range": [
+        0.0,
+        149.998
+      ],
+      "nonpositive_sigma_points": []
+    },
+    {
+      "temperature_label_K": 773,
+      "temperature_source": "deposit folder name only",
+      "member": "Cif_files_and_data/x_0p85/773_K/812171-mac-001_reb_0002.xye",
+      "sha256": "fd2681dfbcb72af3098e00c01232e13a56e5aedebe2a9326f5a27e7d58f79c40",
+      "rows": 75000,
+      "two_theta_range": [
+        0.0,
+        149.998
+      ],
+      "nonpositive_sigma_points": []
+    },
+    {
+      "temperature_label_K": 873,
+      "temperature_source": "deposit folder name only",
+      "member": "Cif_files_and_data/x_0p85/873_K/812231-mac-001_reb_0002.xye",
+      "sha256": "af292562ac721cab027ff59f9e0b725a8f203ed5bead1142e4ddf2fe9df8848a",
+      "rows": 75000,
+      "two_theta_range": [
+        0.0,
+        149.998
+      ],
+      "nonpositive_sigma_points": []
+    }
+  ],
+  "normalization": "none",
+  "color_scale": "asinh",
+  "display_only": [
+    "waterfall offsets",
+    "contour grid interpolation"
+  ],
+  "x_range_degrees": [
+    7,
+    40
+  ],
+  "source_data_license": "CC BY 4.0",
+  "source_doi": "10.6084/m9.figshare.12446306.v1",
+  "visual_review": "PASS: final native SVG rendered at 1300px and inspected; no clipping or overlapping labels",
+  "files": {
+    "vt07-series-v2.svg": "8e6d12e97561fb03922cf5352bda03000ff5fe2f444bcbac765f0489baec7035",
+    "vt07-series-v2.pdf": "1cdb30a710aa74e1ab7f5daf37de3832f479e4864f73c9f8b42909f934a4fab4",
+    "vt07-series-v2.png": "b56570f8c596238bc06820b332324f621fdcf8ba1199861e62f880bcf81649c1"
+  }
+}

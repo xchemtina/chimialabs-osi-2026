@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-25T17:56:35.952634+00:00",
+  "status": "PASS",
+  "scope": "local staged-public-package replay in the same installed dependency environment; not a clean-machine reproduction",
+  "wheel_install_exit": 0,
+  "unit_test_output": "...............................................                          [100%]\n47 passed in 0.15s",
+  "benchmark_result_sha256": "aff8c370163dcfb0b18af0f74a8bee4e1b6ae29a923236d1af58f75864fbfd8b",
+  "benchmark_result": {
+    "status": "PASS_BOUNDED_CONTROLS",
+    "checks": 59,
+    "failed": [],
+    "elapsed_seconds": 0.3981351852416992,
+    "error": null
+  },
+  "source_hashes_match_run002": true
+}

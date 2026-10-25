@@ -1,0 +1,27 @@
+data_crystalbench
+# Generic P1 representation; full lineage is in companion JSON.
+# model_kind: average
+# cell lengths: angstrom; U_iso: angstrom^2; '?' means unknown.
+_cell_length_a 7.071067811865476
+_cell_length_b 8.112490369793976
+_cell_length_c 6.025985396596975
+_cell_angle_alpha 38.86732415019259
+_cell_angle_beta 84.95102705924275
+_cell_angle_gamma 53.96010656969614
+_space_group_name_H-M_alt 'P 1'
+_space_group_IT_number 1
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+C1_t0 C 0.1428571428571428 0.07936507936507936 0.1206349206349207 0.5 ?
+O1_t0 O 0.4 0.9333333333333333 0.4952380952380953 0.75 ?
+N1_t0 N 0 0.125 0.5416666666666666 1 ?

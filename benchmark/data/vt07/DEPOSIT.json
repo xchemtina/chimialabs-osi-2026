@@ -1,0 +1,25 @@
+{
+  "title": "Cif_files_and_exp_data.zip",
+  "doi": "10.6084/m9.figshare.12446306.v1",
+  "citation": "fernando.pomiro@warwick.ac.uk, fernando.pomiro@warwick.ac.uk (2020). Cif_files_and_exp_data.zip. figshare. Dataset. https://doi.org/10.6084/m9.figshare.12446306.v1",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "description": "<p>Synchrotron X-ray diffraction data obtained at I11,\nDiamond. Inputs files from TOPAS used to refine the data and .cif files\ngenerated from the refinements.</p>",
+  "version": 1,
+  "files": [
+    {
+      "id": 22972034,
+      "name": "Cif_files_and_exp_data.zip",
+      "size": 109011284,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/22972034",
+      "supplied_md5": "ddefe227ee52fe94df407aca9099ad29",
+      "computed_md5": "ddefe227ee52fe94df407aca9099ad29",
+      "mimetype": "application/zip"
+    }
+  ],
+  "published_date": "2020-06-08T17:33:30Z"
+}

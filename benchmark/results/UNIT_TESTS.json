@@ -1,0 +1,7 @@
+{
+  "tests": 47,
+  "failures": 0,
+  "errors": 0,
+  "command": "python -m pytest -q",
+  "package_version": "0.1.1"
+}

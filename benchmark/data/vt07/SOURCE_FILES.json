@@ -1,0 +1,23 @@
+{
+  "archive_sha256": "4786813feccc228e623b4646e151d03096c1e95cd9919b03e8140e86eeed8b51",
+  "members": {
+    "observed.xye": {
+      "member": "Cif_files_and_data/x_0p85/300_K/811900-mac-001_reb_0002.xye",
+      "bytes": 2261924,
+      "sha256": "498fb418f94ed7a31db2ac3f119cf8fd4afc52d15b76ecd34620776f6ac474e5"
+    },
+    "source.cif": {
+      "member": "Cif_files_and_data/x_0p85/Cif_files/x_0p85_300K_A2_1am.cif",
+      "bytes": 1444,
+      "sha256": "093c4d1121c232bc9bdda7340738138b0622c0c6804fa3ad28facde29fe324f4"
+    },
+    "published.inp": {
+      "member": "Cif_files_and_data/x_0p85/300_K/CaSrTi2O7_P2_1nm_RT_230119_test_FER_P2_1nm.inp",
+      "bytes": 33218,
+      "sha256": "56bfba9f0af02bd246e3b9452aa2f6c89814f827578553b1fd20cfab584ad070"
+    }
+  },
+  "doi": "10.6084/m9.figshare.12446306.v1",
+  "license": "CC BY 4.0",
+  "status": "SOURCE_BYTES_VERIFIED_PROFILE_IDENTITY_UNRESOLVED"
+}

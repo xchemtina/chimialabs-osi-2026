@@ -1,0 +1,700 @@
+{
+  "schema": "crystalbench.periodic-model.v1",
+  "object_type": "source",
+  "cell": [
+    [
+      5.44898,
+      0.0,
+      0.0
+    ],
+    [
+      3.349415118902007e-16,
+      5.47001,
+      0.0
+    ],
+    [
+      1.2057498867131098e-15,
+      1.2057498867131098e-15,
+      19.69139
+    ]
+  ],
+  "length_unit": "angstrom",
+  "coordinate_convention": "row_basis",
+  "sites": [
+    {
+      "label": "Ca1_0",
+      "species": "Ca",
+      "frac": [
+        0.5,
+        0.75076,
+        0.0
+      ],
+      "occupancy": 0.451,
+      "u_iso": null
+    },
+    {
+      "label": "Ca1_1",
+      "species": "Ca",
+      "frac": [
+        1.0,
+        -0.75076,
+        0.0
+      ],
+      "occupancy": 0.451,
+      "u_iso": null
+    },
+    {
+      "label": "Ca1_2",
+      "species": "Ca",
+      "frac": [
+        0.5,
+        1.25076,
+        0.5
+      ],
+      "occupancy": 0.451,
+      "u_iso": null
+    },
+    {
+      "label": "Ca1_3",
+      "species": "Ca",
+      "frac": [
+        1.0,
+        -0.25076,
+        0.5
+      ],
+      "occupancy": 0.451,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_4",
+      "species": "Ca",
+      "frac": [
+        0.01917,
+        0.73943,
+        0.31376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_5",
+      "species": "Ca",
+      "frac": [
+        0.01917,
+        0.73943,
+        -0.31376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_6",
+      "species": "Ca",
+      "frac": [
+        0.51917,
+        -0.73943,
+        -0.31376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_7",
+      "species": "Ca",
+      "frac": [
+        0.51917,
+        -0.73943,
+        0.31376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_8",
+      "species": "Ca",
+      "frac": [
+        0.01917,
+        1.23943,
+        0.81376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_9",
+      "species": "Ca",
+      "frac": [
+        0.01917,
+        1.23943,
+        0.18624000000000002
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_10",
+      "species": "Ca",
+      "frac": [
+        0.51917,
+        -0.23943000000000003,
+        0.18624000000000002
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Ca2_11",
+      "species": "Ca",
+      "frac": [
+        0.51917,
+        -0.23943000000000003,
+        0.81376
+      ],
+      "occupancy": 0.816,
+      "u_iso": null
+    },
+    {
+      "label": "Sr1_12",
+      "species": "Sr",
+      "frac": [
+        0.5,
+        0.75076,
+        0.0
+      ],
+      "occupancy": 0.549,
+      "u_iso": null
+    },
+    {
+      "label": "Sr1_13",
+      "species": "Sr",
+      "frac": [
+        1.0,
+        -0.75076,
+        0.0
+      ],
+      "occupancy": 0.549,
+      "u_iso": null
+    },
+    {
+      "label": "Sr1_14",
+      "species": "Sr",
+      "frac": [
+        0.5,
+        1.25076,
+        0.5
+      ],
+      "occupancy": 0.549,
+      "u_iso": null
+    },
+    {
+      "label": "Sr1_15",
+      "species": "Sr",
+      "frac": [
+        1.0,
+        -0.25076,
+        0.5
+      ],
+      "occupancy": 0.549,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_16",
+      "species": "Sr",
+      "frac": [
+        0.01917,
+        0.73943,
+        0.31376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_17",
+      "species": "Sr",
+      "frac": [
+        0.01917,
+        0.73943,
+        -0.31376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_18",
+      "species": "Sr",
+      "frac": [
+        0.51917,
+        -0.73943,
+        -0.31376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_19",
+      "species": "Sr",
+      "frac": [
+        0.51917,
+        -0.73943,
+        0.31376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_20",
+      "species": "Sr",
+      "frac": [
+        0.01917,
+        1.23943,
+        0.81376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_21",
+      "species": "Sr",
+      "frac": [
+        0.01917,
+        1.23943,
+        0.18624000000000002
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_22",
+      "species": "Sr",
+      "frac": [
+        0.51917,
+        -0.23943000000000003,
+        0.18624000000000002
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Sr2_23",
+      "species": "Sr",
+      "frac": [
+        0.51917,
+        -0.23943000000000003,
+        0.81376
+      ],
+      "occupancy": 0.184,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_24",
+      "species": "Ti",
+      "frac": [
+        0.01213,
+        0.74893,
+        0.09999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_25",
+      "species": "Ti",
+      "frac": [
+        0.01213,
+        0.74893,
+        -0.09999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_26",
+      "species": "Ti",
+      "frac": [
+        0.51213,
+        -0.74893,
+        -0.09999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_27",
+      "species": "Ti",
+      "frac": [
+        0.51213,
+        -0.74893,
+        0.09999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_28",
+      "species": "Ti",
+      "frac": [
+        0.01213,
+        1.24893,
+        0.59999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_29",
+      "species": "Ti",
+      "frac": [
+        0.01213,
+        1.24893,
+        0.40001
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_30",
+      "species": "Ti",
+      "frac": [
+        0.51213,
+        -0.24892999999999998,
+        0.40001
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "Ti1_31",
+      "species": "Ti",
+      "frac": [
+        0.51213,
+        -0.24892999999999998,
+        0.59999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O1_32",
+      "species": "O",
+      "frac": [
+        0.01189,
+        0.71087,
+        0.0
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O1_33",
+      "species": "O",
+      "frac": [
+        0.51189,
+        -0.71087,
+        0.0
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O1_34",
+      "species": "O",
+      "frac": [
+        0.01189,
+        1.21087,
+        0.5
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O1_35",
+      "species": "O",
+      "frac": [
+        0.51189,
+        -0.21087,
+        0.5
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_36",
+      "species": "O",
+      "frac": [
+        0.0051,
+        0.78775,
+        0.19776
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_37",
+      "species": "O",
+      "frac": [
+        0.0051,
+        0.78775,
+        -0.19776
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_38",
+      "species": "O",
+      "frac": [
+        0.5051,
+        -0.78775,
+        -0.19776
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_39",
+      "species": "O",
+      "frac": [
+        0.5051,
+        -0.78775,
+        0.19776
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_40",
+      "species": "O",
+      "frac": [
+        0.0051,
+        1.28775,
+        0.6977599999999999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_41",
+      "species": "O",
+      "frac": [
+        0.0051,
+        1.28775,
+        0.30224
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_42",
+      "species": "O",
+      "frac": [
+        0.5051,
+        -0.28774999999999995,
+        0.30224
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O2_43",
+      "species": "O",
+      "frac": [
+        0.5051,
+        -0.28774999999999995,
+        0.6977599999999999
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_44",
+      "species": "O",
+      "frac": [
+        0.74868,
+        -0.01984,
+        0.09166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_45",
+      "species": "O",
+      "frac": [
+        0.74868,
+        -0.01984,
+        -0.09166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_46",
+      "species": "O",
+      "frac": [
+        1.24868,
+        0.01984,
+        -0.09166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_47",
+      "species": "O",
+      "frac": [
+        1.24868,
+        0.01984,
+        0.09166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_48",
+      "species": "O",
+      "frac": [
+        0.74868,
+        0.48016,
+        0.59166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_49",
+      "species": "O",
+      "frac": [
+        0.74868,
+        0.48016,
+        0.40834
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_50",
+      "species": "O",
+      "frac": [
+        1.24868,
+        0.51984,
+        0.40834
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O3_51",
+      "species": "O",
+      "frac": [
+        1.24868,
+        0.51984,
+        0.59166
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_52",
+      "species": "O",
+      "frac": [
+        0.28663,
+        0.52229,
+        0.10752
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_53",
+      "species": "O",
+      "frac": [
+        0.28663,
+        0.52229,
+        -0.10752
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_54",
+      "species": "O",
+      "frac": [
+        0.7866299999999999,
+        -0.52229,
+        -0.10752
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_55",
+      "species": "O",
+      "frac": [
+        0.7866299999999999,
+        -0.52229,
+        0.10752
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_56",
+      "species": "O",
+      "frac": [
+        0.28663,
+        1.02229,
+        0.6075200000000001
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_57",
+      "species": "O",
+      "frac": [
+        0.28663,
+        1.02229,
+        0.39248
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_58",
+      "species": "O",
+      "frac": [
+        0.7866299999999999,
+        -0.022290000000000032,
+        0.39248
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    },
+    {
+      "label": "O4_59",
+      "species": "O",
+      "frac": [
+        0.7866299999999999,
+        -0.022290000000000032,
+        0.6075200000000001
+      ],
+      "occupancy": 1.0,
+      "u_iso": null
+    }
+  ],
+  "model_kind": "average",
+  "nominal_composition": {
+    "Ca": 2.15,
+    "Sr": 0.85,
+    "Ti": 2.0,
+    "O": 7.0
+  },
+  "source_weighted_composition": {
+    "Ca": 8.331999999999999,
+    "Sr": 3.668,
+    "Ti": 8.0,
+    "O": 28.0
+  },
+  "formula_units": null,
+  "source_id": "doi:10.6084/m9.figshare.12446306.v1#300K-A21am"
+}

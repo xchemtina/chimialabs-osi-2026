@@ -1,3 +1,9 @@
+## Public representation benchmark — 25 October 2026
+
+[Code, protocol, results and Rust-rendered observations](benchmark/README.md) · [Two-page PDF](benchmark/report/REPORT.pdf). The generic core passes synthetic controls and one external geometry revalidation. This does not establish measured ordering or a general crystallographic rewrite. The original methods-only entry is retained below.
+
+---
+
 # ChimiaLabs — inspectable copper-ordering hypotheses
 
 **OSI Hackathon 2026 · private-code research submission**

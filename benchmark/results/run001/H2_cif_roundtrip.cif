@@ -1,0 +1,36 @@
+data_crystalbench
+# Generic P1 representation; full lineage is in companion JSON.
+# model_kind: average
+# cell lengths: angstrom; U_iso: angstrom^2; '?' means unknown.
+_cell_length_a 10.295630140987
+_cell_length_b 10.19803902718557
+_cell_length_c 6.025985396596975
+_cell_angle_alpha 86.73501641598251
+_cell_angle_beta 84.68218561929039
+_cell_angle_gamma 49.63546342690264
+_space_group_name_H-M_alt 'P 1'
+_space_group_IT_number 1
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x,y,z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_U_iso_or_equiv
+C1_t0 C 0.07142857142857142 0.07539682539682539 0.2 0.5 ?
+O1_t0 O 0.2 0.06666666666666665 0.4285714285714285 0.75 ?
+N1_t0 N 0 0.0625 0.6666666666666666 1 ?
+C1_t1 C 0.5714285714285714 0.8253968253968254 0.2 0.5 ?
+O1_t1 O 0.7 0.8166666666666667 0.4285714285714285 0.75 ?
+N1_t1 N 0.5 0.8125 0.6666666666666666 1 ?
+C1_t2 C 0.07142857142857142 0.5753968253968255 0.2 0.5 ?
+O1_t2 O 0.2 0.5666666666666667 0.4285714285714285 0.75 ?
+N1_t2 N 0 0.5625 0.6666666666666666 1 ?
+C1_t3 C 0.5714285714285714 0.3253968253968255 0.2 0.5 ?
+O1_t3 O 0.7 0.3166666666666667 0.4285714285714285 0.75 ?
+N1_t3 N 0.5 0.3125 0.6666666666666666 1 ?
