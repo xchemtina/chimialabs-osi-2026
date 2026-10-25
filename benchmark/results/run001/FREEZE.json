@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-25T17:48:57.965779+00:00",
+  "hashes": {
+    "src/crystalbench/__init__.py": "d00080262344c441961e808b80c4cecbdec7250a7351aa21c7143853872b9c55",
+    "src/crystalbench/model.py": "1e2fca4c3841b108d9e46c563e034eae7363e77fe7f7006d0a744fd965e094a5",
+    "src/crystalbench/scattering.py": "9434d3f8f92e0782d1801e0634562fa4f566e930c09abbc85ca7f5cedd04a397",
+    "protocol/CLARIFICATION_01.md": "0c9ea5dd58111c5b3ab69d5b36932fac9995494dddd098e557227ad1baa863e3",
+    "protocol/PROTOCOL.md": "1bdc10c6979246bf65b408a94dd0e342998fcf9ca47344df41f7f1c535aca4fe"
+  },
+  "runner_sha256": "b4a9e75b57b6378064e34fbea1bde2ac5bde6414cdc5d30a62c68e385493f27d"
+}

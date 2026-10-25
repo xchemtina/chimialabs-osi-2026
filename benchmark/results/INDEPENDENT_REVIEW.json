@@ -1,0 +1,17 @@
+{
+  "scope": "read-only review of run001 core, runner, receipts and frozen source",
+  "disposition": "PASS_WITH_RESERVATIONS",
+  "reviewed_utc": "2026-10-25T17:55:49.282344+00:00",
+  "confirmed": [
+    "independent rational cosets and scalar sums",
+    "exact integer cyclic autocorrelation over all 495 ring configurations",
+    "frozen source and runner hashes match",
+    "literal external multiplicities match weighted composition"
+  ],
+  "limitations": [
+    "Gemmi symmetry and IT92 inputs shared",
+    "VT07 does not test experimental occupation recovery",
+    "known-ADP serialization and comprehensive isotropic transfer outside independent suite"
+  ],
+  "post_review_revision": "large-coordinate phase and expansion fixes in v0.1.1; revalidated in run002; external case now development"
+}

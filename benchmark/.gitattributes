@@ -1,0 +1,2 @@
+# Preserve literal whitespace in the byte-pinned upstream CIF.
+data/vt07/source.cif whitespace=-blank-at-eol,-blank-at-eof

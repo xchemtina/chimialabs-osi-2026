@@ -1,0 +1,469 @@
+{
+  "status": "PASS_BOUNDED_CONTROLS",
+  "stage": "all",
+  "environment": {
+    "python": "3.14.2",
+    "numpy": "2.4.6",
+    "gemmi": "0.7.5"
+  },
+  "protocol": "v1",
+  "checks": [
+    {
+      "name": "synthetic_parent_direct_sum",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 5.538054638442804e-15,
+      "max_error_budget_ratio": 0.0009749957468746698,
+      "max_amplitude_budget": 9.4091395907991e-12
+    },
+    {
+      "name": "H0_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 6.445272572083738e-15,
+      "max_error_budget_ratio": 0.0009749957468746698,
+      "max_amplitude_budget": 1.2338322171334383e-11
+    },
+    {
+      "name": "H0_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 5.538054638442804e-15,
+      "max_error_budget_ratio": 0.0009749957468746698,
+      "max_amplitude_budget": 9.4091395907991e-12
+    },
+    {
+      "name": "H0_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 0,
+      "max_abs_error": 0.0,
+      "max_error_budget_ratio": 0.0,
+      "max_amplitude_budget": 0.0
+    },
+    {
+      "name": "H0_composition",
+      "status": "PASS",
+      "determinant": 1,
+      "site_count": 3
+    },
+    {
+      "name": "H0_cif_roundtrip",
+      "status": "PASS",
+      "sites": 3,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.7763568394002505e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "H1_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 3.1123147613784965e-14,
+      "max_error_budget_ratio": 0.0004029856348301312,
+      "max_amplitude_budget": 1.5924851934226774e-10
+    },
+    {
+      "name": "H1_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 3.623071274882353e-14,
+      "max_error_budget_ratio": 0.00025080025282378743,
+      "max_amplitude_budget": 2.2954890127566808e-10
+    },
+    {
+      "name": "H1_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 594,
+      "max_abs_error": 1.7788617486884397e-14,
+      "max_error_budget_ratio": 0.00012429760625243334,
+      "max_amplitude_budget": 1.5924851934226774e-10
+    },
+    {
+      "name": "H1_composition",
+      "status": "PASS",
+      "determinant": 6,
+      "site_count": 18
+    },
+    {
+      "name": "H1_cif_roundtrip",
+      "status": "PASS",
+      "sites": 18,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.7053025658242404e-13,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "H2_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 4.2832062649770636e-14,
+      "max_error_budget_ratio": 0.0005483163190747449,
+      "max_amplitude_budget": 9.202552596157796e-11
+    },
+    {
+      "name": "H2_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 3.965097456690663e-14,
+      "max_error_budget_ratio": 0.0003742937500857092,
+      "max_amplitude_budget": 1.3375527979758704e-10
+    },
+    {
+      "name": "H2_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 522,
+      "max_abs_error": 1.3101102115615711e-14,
+      "max_error_budget_ratio": 0.0001677142692518738,
+      "max_amplitude_budget": 8.507056698892526e-11
+    },
+    {
+      "name": "H2_composition",
+      "status": "PASS",
+      "determinant": 4,
+      "site_count": 12
+    },
+    {
+      "name": "H2_cif_roundtrip",
+      "status": "PASS",
+      "sites": 12,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.4210854715202004e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "H3_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 1.1430445635548515e-14,
+      "max_error_budget_ratio": 0.000552886430895482,
+      "max_amplitude_budget": 3.043689106314239e-11
+    },
+    {
+      "name": "H3_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 7.83867775493612e-15,
+      "max_error_budget_ratio": 0.00038093581524841673,
+      "max_amplitude_budget": 3.783149142395094e-11
+    },
+    {
+      "name": "H3_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 0,
+      "max_abs_error": 0.0,
+      "max_error_budget_ratio": 0.0,
+      "max_amplitude_budget": 0.0
+    },
+    {
+      "name": "H3_composition",
+      "status": "PASS",
+      "determinant": 1,
+      "site_count": 3
+    },
+    {
+      "name": "H3_cif_roundtrip",
+      "status": "PASS",
+      "sites": 3,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.4210854715202004e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "H4_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 1.320372144714677e-14,
+      "max_error_budget_ratio": 0.0005566735279220919,
+      "max_amplitude_budget": 3.74811604009571e-11
+    },
+    {
+      "name": "H4_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 1.1322097734007352e-14,
+      "max_error_budget_ratio": 0.00039458599613892366,
+      "max_amplitude_budget": 3.74811604009571e-11
+    },
+    {
+      "name": "H4_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 324,
+      "max_abs_error": 5.8096073093968605e-15,
+      "max_error_budget_ratio": 0.00022579589132287257,
+      "max_amplitude_budget": 3.455197782041417e-11
+    },
+    {
+      "name": "H4_composition",
+      "status": "PASS",
+      "determinant": 2,
+      "site_count": 6
+    },
+    {
+      "name": "H4_cif_roundtrip",
+      "status": "PASS",
+      "sites": 6,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.4210854715202004e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "H5_independent_cosets_amplitudes",
+      "status": "PASS",
+      "vectors": 729,
+      "max_abs_error": 2.2168227250855173e-14,
+      "max_error_budget_ratio": 0.00030268829333059225,
+      "max_amplitude_budget": 1.0548561193318971e-10
+    },
+    {
+      "name": "H5_repeat_identity",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 5.476281279082068e-14,
+      "max_error_budget_ratio": 0.0003547026174650733,
+      "max_amplitude_budget": 1.7804316974208195e-10
+    },
+    {
+      "name": "H5_satellite_cancellation",
+      "status": "PASS",
+      "vectors": 526,
+      "max_abs_error": 1.6774221681350414e-14,
+      "max_error_budget_ratio": 0.00021627651444591726,
+      "max_amplitude_budget": 9.742366106556471e-11
+    },
+    {
+      "name": "H5_composition",
+      "status": "PASS",
+      "determinant": 4,
+      "site_count": 12
+    },
+    {
+      "name": "H5_cif_roundtrip",
+      "status": "PASS",
+      "sites": 12,
+      "max_wrapped_coordinate_error": 0.0,
+      "metric_max_abs_error": 2.842170943040401e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "origin_shift_phase",
+      "status": "PASS",
+      "vectors": 343,
+      "max_abs_error": 7.422943172148166e-15,
+      "max_error_budget_ratio": 0.0008802522574125596,
+      "max_amplitude_budget": 9.4091395907991e-12
+    },
+    {
+      "name": "ring_A_independent",
+      "status": "PASS",
+      "vectors": 12,
+      "max_abs_error": 2.6372178930022424e-15,
+      "max_error_budget_ratio": 3.291374810196932e-05,
+      "max_amplitude_budget": 1.0635352497719366e-10
+    },
+    {
+      "name": "ring_A_exact_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "ring_B_independent",
+      "status": "PASS",
+      "vectors": 12,
+      "max_abs_error": 6.4118934836116706e-15,
+      "max_error_budget_ratio": 6.605607964850537e-05,
+      "max_amplitude_budget": 1.0635352497719366e-10
+    },
+    {
+      "name": "ring_B_exact_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "ring_C_independent",
+      "status": "PASS",
+      "vectors": 12,
+      "max_abs_error": 5.461575137144001e-15,
+      "max_error_budget_ratio": 5.6265788442615745e-05,
+      "max_amplitude_budget": 1.0635352497719366e-10
+    },
+    {
+      "name": "ring_C_exact_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "ring_D_independent",
+      "status": "PASS",
+      "vectors": 12,
+      "max_abs_error": 8.98389288479247e-15,
+      "max_error_budget_ratio": 9.25531195220699e-05,
+      "max_amplitude_budget": 1.0635352497719366e-10
+    },
+    {
+      "name": "ring_D_exact_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "homometric_integer_certificate",
+      "status": "PASS",
+      "patterns_enumerated": 495,
+      "autocorrelation_classes": 28,
+      "ambiguous_classes": 1,
+      "autocorrelation_C": [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "homometric_intensity",
+      "status": "PASS",
+      "max_abs_error": 1.5987211554602254e-14
+    },
+    {
+      "name": "same_mean_different_intensity",
+      "status": "PASS",
+      "distinct_modes": 7,
+      "max_intensity_difference": 16.0
+    },
+    {
+      "name": "exclusion_alternating",
+      "status": "PASS"
+    },
+    {
+      "name": "exclusion_wrapped_pair",
+      "status": "PASS"
+    },
+    {
+      "name": "exclusion_adjacent_pair",
+      "status": "PASS"
+    },
+    {
+      "name": "VT07_scalar_reference",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 4.804322907208386e-13,
+      "max_error_budget_ratio": 0.00023565358651668947,
+      "max_amplitude_budget": 3.2575749402442975e-09
+    },
+    {
+      "name": "VT07_Gemmi_independent_structure_factors",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 4.4574258478800315e-13,
+      "max_error_budget_ratio": 0.0002348793080785762,
+      "max_amplitude_budget": 3.2575749402442975e-09
+    },
+    {
+      "name": "VT07_H0_embedded_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 4.0246146641289763e-13,
+      "max_error_budget_ratio": 0.00024967614092204893,
+      "max_amplitude_budget": 3.2575749402442975e-09
+    },
+    {
+      "name": "VT07_H0_complete_grid_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 4.0246146641289763e-13,
+      "max_error_budget_ratio": 0.00024967614092204893,
+      "max_amplitude_budget": 3.2575749402442975e-09
+    },
+    {
+      "name": "VT07_H0_cif_roundtrip",
+      "status": "PASS",
+      "sites": 60,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 6.595463937819578e-15,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "VT07_H1_embedded_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 1.0372281290310124e-12,
+      "max_error_budget_ratio": 0.0001345044706054551,
+      "max_amplitude_budget": 1.2081242536649741e-08
+    },
+    {
+      "name": "VT07_H1_complete_grid_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 8.654048825579293e-13,
+      "max_error_budget_ratio": 0.0001345044706054551,
+      "max_amplitude_budget": 1.2081242536649741e-08
+    },
+    {
+      "name": "VT07_H1_cif_roundtrip",
+      "status": "PASS",
+      "sites": 120,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.3140214035404e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "VT07_H2_embedded_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 1.9724441099319378e-12,
+      "max_error_budget_ratio": 0.00019169656954039373,
+      "max_amplitude_budget": 1.3788115127457218e-08
+    },
+    {
+      "name": "VT07_H2_complete_grid_parity",
+      "status": "PASS",
+      "vectors": 2197,
+      "max_abs_error": 1.2661702213065442e-12,
+      "max_error_budget_ratio": 0.00017182359590026697,
+      "max_amplitude_budget": 1.3788115127457218e-08
+    },
+    {
+      "name": "VT07_H2_cif_roundtrip",
+      "status": "PASS",
+      "sites": 120,
+      "max_wrapped_coordinate_error": 5.551115123125783e-17,
+      "metric_max_abs_error": 1.973567797322358e-14,
+      "unknown_adps_preserved": true
+    },
+    {
+      "name": "frozen_core_and_protocol_unchanged",
+      "status": "PASS"
+    }
+  ],
+  "synthetic": {
+    "transform_count": 6,
+    "ring_fixture_count": 4,
+    "independence": "rational Gauss-Jordan cosets, scalar cmath sums, exhaustive integer autocorrelations; no core quotient/reference calls"
+  },
+  "external": {
+    "source_sites": 60,
+    "asymmetric_sites": 9,
+    "weighted_composition_per_cell": {
+      "Ca": 8.331999999999999,
+      "Sr": 3.668,
+      "Ti": 8.0,
+      "O": 28.0
+    },
+    "normalization_to_Ti2O7": {
+      "Ca": 2.0829999999999997,
+      "Sr": 0.917,
+      "Ti": 2.0,
+      "O": 7.0
+    },
+    "normalization_note": "Ti2O7 reference division by four; not a CIF-provided Z",
+    "miller_vectors": 2197,
+    "adp_policy": "explicit zero-ADP derivative; source ADPs unknown",
+    "factor_policy": "neutral IT92, no anomalous factors; table shared with Gemmi reference",
+    "scope": "geometry and structure-factor transfer only",
+    "native_profile_parity": "NOT_ASSESSED",
+    "observed_structure_inference": "NOT_ASSESSED"
+  },
+  "elapsed_seconds": 0.37877511978149414
+}
