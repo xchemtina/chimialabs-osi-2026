@@ -1,0 +1,31 @@
+{
+  "schema": "pxrd.sanitized.historical-receipt.v1",
+  "evidence_class": "derived sanitized transcription of local original receipts; not independent execution attestation",
+  "original_session_sha256": "670f0b5df6cfea35b9b43754cd49f1b988d6146168bfd82dc277493007d7fd9c",
+  "original_frozen_config_sha256": "09630da4bbe50abb24eb36830e13c5a4d5a8e18ea36949fa00513c9c02fcbfea",
+  "recorded_config_sha256": "09630da4bbe50abb24eb36830e13c5a4d5a8e18ea36949fa00513c9c02fcbfea",
+  "status": "completed",
+  "completed_steps": 8,
+  "worker_exit_code": 0,
+  "cleanup_confirmed": true,
+  "started_at": "2026-09-13T00:12:45.117Z",
+  "finished_at": "2026-09-13T00:12:54.783Z",
+  "source_inputs_sha256": {
+    "PBSO4.XRA": "ca2da02fc7e17d2fc912de22a979f8101ba6140f2e8104f9d3aa64f030ca58bb",
+    "INST_XRY.PRM": "e59413059bc3b12a51f1c6eebc5d581470320d05a31f11a41dbb32e16d1d16b9",
+    "PbSO4-Wyckoff.cif": "9bc19d0995561afd78a5f0563599c032751621da994e36c7570b4f515d9f0e2f"
+  },
+  "original_native_metrics_sha256": "f74fd02d40b07f2220bf2572e6c47a67b97501b9e9844878040a66694da8b277",
+  "sanitized_native_metrics_sha256": "5746098eae36d49502aaf6117476f59f036a91612d10f0c55bf25afa038e9393",
+  "metrics_semantically_equal_checked": true,
+  "original_case_sha256": "8c7e2c7aec25c8b23bd2fab1be5993d71f61c3892cecb6af4ba7fb6b8ec2b6a6",
+  "sanitized_case_sha256": "d0b84c86ff7c087c651b2b2bece1e911af066a134cd683fe4283c5b24b7287f4",
+  "case_source_digests_equal_checked": true,
+  "original_pattern_sha256": "006ee8de041df366b0391fc2af2dbd53ef42d8dd8837ad8fc2915f6399f567a8",
+  "included_pattern_sha256": "006ee8de041df366b0391fc2af2dbd53ef42d8dd8837ad8fc2915f6399f567a8",
+  "transformations": [
+    "native-metrics: remove absolute gpx_path only; native numeric metrics unchanged",
+    "case: replace source path prefixes with fixture basenames; source hashes unchanged",
+    "receipt: omit absolute machine paths, process IDs, environment and session claim; keep hash commitments and status"
+  ]
+}
