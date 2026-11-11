@@ -1,0 +1,28 @@
+   Compiling chimia-pxrd-replay v0.1.0 ($BUNDLE/adapter)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.27s
+     Running unittests src/main.rs (adapter/target/debug/deps/chimia_pxrd_replay-a3f102cdbc3ac412)
+
+running 5 tests
+test tests::modified_manifest_rejects ... ok
+test tests::modified_source_rejects ... ok
+test tests::symlink_source_rejects ... ok
+test tests::extra_file_rejects ... ok
+test tests::production_fixture_accepts ... ok
+
+test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+   Compiling chimia-pxrd-replay v0.1.0 ($BUNDLE/adapter)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.33s
+     Running `adapter/target/debug/chimia-pxrd-replay --verify`
+{
+  "mode": "VERIFIED_REPLAY_OF_HISTORICAL_NATIVE_EXECUTION",
+  "native_Rwp_percent": 32.476329298163684,
+  "status": "PASS_VERIFIED_REPLAY",
+  "tests": {
+    "envelope_tamper_rejected": true,
+    "fixture_hashes_checked": true,
+    "key_substitution_rejected": true,
+    "payload_tamper_rejected": true,
+    "second_run_idempotent": true
+  }
+}

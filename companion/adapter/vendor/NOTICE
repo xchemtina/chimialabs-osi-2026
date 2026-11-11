@@ -1,0 +1,21 @@
+ChimiaClaw — Rust-native scaffold for autonomous scientific agents
+Copyright 2026 ChimiaDAO <info@chimiadao.io>
+
+This product includes software developed by ChimiaDAO and its contributors
+as part of the ETHGlobal "OpenAgents" hackathon track.
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+If you use ChimiaClaw, MolADT, the chem.dft.{request,result} schema, or any
+of the signed-artifact patterns defined in this repository in academic or
+research work, please cite this repository (see CITATION.cff).
+
+Third-party components used by ChimiaClaw retain their original licenses;
+in particular:
+
+- PySCF (https://pyscf.org/) — Apache-2.0
+- RDKit (https://www.rdkit.org/) — BSD-3-Clause
+- Open Reaction Database schema (https://open-reaction-database.org/) — Apache-2.0
+- web3.py (https://web3py.readthedocs.io/) — MIT
+- Standard Rust crates (serde, blake3, ed25519-dalek, sha2, base64) — see
+  individual crate licenses

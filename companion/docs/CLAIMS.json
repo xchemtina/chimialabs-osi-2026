@@ -1,0 +1,25 @@
+{
+  "project": "ChimiaLabs \u2014 inspectable copper-ordering hypotheses",
+  "public_companion_material": "PbSO4, distinct from copper research",
+  "new_work": [
+    "Actual OpenAgents runtime skill integration",
+    "Signed request/result lineage",
+    "Source and result verification",
+    "Idempotency and tamper tests",
+    "Inspectable public viewer"
+  ],
+  "native_calculation": "Recorded 2026-09-13, verified replay; no fresh refinement claimed",
+  "copper_claim_scope": "Scientific motivation and comparison discipline only; private source results not redistributed or validated by public companion",
+  "not_claimed": [
+    "Unique physical copper structure",
+    "Autonomous discovery",
+    "Multi-laboratory federation",
+    "Independent instrument calibration",
+    "Signatures as scientific proof"
+  ],
+  "proof": {
+    "runtime_report": "run/report.json",
+    "verification": "run/verification.json",
+    "native_metrics": "fixtures/pbso4/native-metrics.json"
+  }
+}

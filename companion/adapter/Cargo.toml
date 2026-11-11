@@ -1,0 +1,22 @@
+[package]
+name = "chimia-pxrd-replay"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+[workspace]
+[dependencies]
+chimiaclaw-node = { path = "vendor/crates/chimiaclaw-node" }
+chimiaclaw-artifact = { path = "vendor/crates/chimiaclaw-artifact" }
+chimiaclaw-skill = { path = "vendor/crates/chimiaclaw-skill" }
+chimiaclaw-schema = { path = "vendor/crates/chimiaclaw-schema" }
+serde_json = "1"
+sha2 = "0.10"
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/xchemtina/ethglobal-openagents"
+authors = ["ChimiaDAO <info@chimiadao.io>"]
+[workspace.lints.rust]
+unsafe_code = "forbid"
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }

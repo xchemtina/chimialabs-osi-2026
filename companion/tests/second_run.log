@@ -1,0 +1,14 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `adapter/target/debug/chimia-pxrd-replay`
+{
+  "mode": "VERIFIED_REPLAY_OF_HISTORICAL_NATIVE_EXECUTION",
+  "native_Rwp_percent": 32.476329298163684,
+  "status": "PASS_VERIFIED_REPLAY",
+  "tests": {
+    "envelope_tamper_rejected": true,
+    "fixture_hashes_checked": true,
+    "key_substitution_rejected": true,
+    "payload_tamper_rejected": true,
+    "second_run_idempotent": true
+  }
+}

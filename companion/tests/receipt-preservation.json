@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "report_sha256_before": "e0d46a59527f0d7fa4c82c4763eab6bde63dfbac34875a2e21f4e231efb3f412",
+  "report_sha256_after": "e0d46a59527f0d7fa4c82c4763eab6bde63dfbac34875a2e21f4e231efb3f412",
+  "second_run_exit": 0,
+  "initial_invocation_preserved": true
+}

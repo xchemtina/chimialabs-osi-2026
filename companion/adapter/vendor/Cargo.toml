@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
+repository = "https://github.com/xchemtina/ethglobal-openagents"
+authors = ["ChimiaDAO <info@chimiadao.io>"]
+[workspace.lints.rust]
+unsafe_code = "forbid"
+[workspace.lints.clippy]
+pedantic = { level = "warn", priority = -1 }

@@ -1,0 +1,32 @@
+{
+  "protocol_id": "pbso4-bg-scale-cell-gsasii-v1",
+  "engine": "gsasii",
+  "operation": "measured_refinement",
+  "phase_name": "PbSO4",
+  "format_hint": "GSAS powder",
+  "cycles": 3,
+  "limits": [
+    16.0,
+    110.0
+  ],
+  "instrument_parameters_refined": false,
+  "stages": [
+    {
+      "set": {
+        "Background": {
+          "no. coeffs": 6,
+          "refine": true
+        },
+        "Sample Parameters": [
+          "Scale"
+        ]
+      }
+    },
+    {
+      "set": {
+        "Cell": true
+      }
+    }
+  ],
+  "purpose": "Frozen integration protocol, not a complete scientific refinement or reproduction of the combined-data tutorial."
+}

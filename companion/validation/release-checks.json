@@ -1,0 +1,72 @@
+{
+  "checked_utc": "2026-11-11T20:24:41.234741+00:00",
+  "scope": "Software release checks; no new scientific calculation or model calls",
+  "runtime": {
+    "checked_utc": "2026-11-11T20:21:50.271390+00:00",
+    "platform": "macOS arm64",
+    "rust": "1.89.0",
+    "registry_cache": "new isolated cache populated by cargo fetch --locked; builds and replay then offline",
+    "checks": [
+      {
+        "check": "verify-retained",
+        "exit_code": 0,
+        "seconds": 5.575
+      },
+      {
+        "check": "repeat-retained",
+        "exit_code": 0,
+        "seconds": 0.491
+      },
+      {
+        "check": "fresh-signed-replay",
+        "exit_code": 0,
+        "seconds": 0.403
+      },
+      {
+        "check": "verify-fresh",
+        "exit_code": 0,
+        "seconds": 0.459
+      }
+    ],
+    "original_report_preserved": true,
+    "fresh_verification": {
+      "envelope_tamper_rejected": true,
+      "fixture_hashes_checked": true,
+      "key_substitution_rejected": true,
+      "payload_tamper_rejected": true,
+      "second_run_idempotent": true
+    },
+    "scientific_refinement_run": false,
+    "model_calls": 0,
+    "source_execution": "deterministic Rust OpenAgents skill",
+    "logs_location": "private release preparation record"
+  },
+  "browser": {
+    "engine": "Chromium via Playwright",
+    "desktop_viewport": [
+      1440,
+      1000
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "portfolio_and_viewer_inspected": true,
+    "page_errors": [],
+    "horizontal_overflow": false,
+    "profile_rows": 6000,
+    "profile_curves": 3,
+    "rwp_display": "32.476%",
+    "evidence_panel_toggle": "PASS",
+    "scientific_panel_return": "PASS",
+    "deterministic_runtime_label": "PASS",
+    "screenshots_visually_inspected": true
+  },
+  "artifact_sha256": {
+    "companion/adapter/src/main.rs": "dcf515417693fecd496e9fd227da67afb0013bd42ab6fb33dc312535adb9a659",
+    "companion/public/index.html": "feb06006d5b498e1f8a4abd5a7ff15b166aa95cd2cf4b97bfc21a4f8ee176c65",
+    "companion/public/data.js": "c6232ff56c87bc4fe10bbf780a33720fccdb9256520edeeed2fb16a11d4791c2",
+    "companion/public/profile.js": "da0382b174cb8e77d84c8cb9ae5b34edcc1c50db3ee4d84846f0467875dc299f",
+    "docs/index.html": "c249cfcc9a90f1739fb09fbc761731bd78b5ff190dc21ba547d83e603ebb679d"
+  }
+}

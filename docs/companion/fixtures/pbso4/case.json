@@ -1,0 +1,24 @@
+{
+  "case_id": "pbso4-gsas-tutorial-xray-v1",
+  "source": "https://github.com/AdvancedPhotonSource/GSAS-II/tree/b5638d706f1318be273af548f581665e1da912ad/tests/testinp",
+  "license": "GSAS-II open-source license; see GSAS-II-LICENSE.txt and PROVENANCE.md",
+  "radiation": "Cu K-alpha laboratory Bragg-Brentano; room temperature",
+  "warnings": [
+    "Integration fixture, not an independent validation dataset.",
+    "Instrument profile is the supplied tutorial approximation and is held fixed.",
+    "Wyckoff starting coordinates are a starting model, not an independent truth label."
+  ],
+  "measurement": {
+    "path": "PBSO4.XRA",
+    "sha256": "ca2da02fc7e17d2fc912de22a979f8101ba6140f2e8104f9d3aa64f030ca58bb",
+    "origin": "measured"
+  },
+  "instrument": {
+    "path": "INST_XRY.PRM",
+    "sha256": "e59413059bc3b12a51f1c6eebc5d581470320d05a31f11a41dbb32e16d1d16b9"
+  },
+  "structure": {
+    "path": "PbSO4-Wyckoff.cif",
+    "sha256": "9bc19d0995561afd78a5f0563599c032751621da994e36c7570b4f515d9f0e2f"
+  }
+}

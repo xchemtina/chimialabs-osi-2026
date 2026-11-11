@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "metrics": {
+    "histograms": [
+      {
+        "name": "PWDR PBSO4.XRA Bank 1",
+        "wR": 32.476329298163684,
+        "R": 23.883632800622877,
+        "Rb": 26.19018133541234,
+        "wRb": 36.417050400372034
+      }
+    ],
+    "phases": [
+      {
+        "name": "PbSO4",
+        "cell": {
+          "length_a": 8.485466454401653,
+          "length_b": 5.401427416394719,
+          "length_c": 6.96336299654893,
+          "angle_alpha": 90.0,
+          "angle_beta": 90.0,
+          "angle_gamma": 90.0,
+          "volume": 319.15621113138593
+        }
+      }
+    ]
+  },
+  "histograms": [
+    "PWDR PBSO4.XRA Bank 1"
+  ],
+  "phases": [
+    "PbSO4"
+  ]
+}

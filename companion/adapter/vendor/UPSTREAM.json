@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/xchemtina/ethglobal-openagents",
+  "commit": "5946ab149a17aa4e58b12825a95c8090fe65ba75",
+  "crates_unmodified_sha256": {
+    "crates/chimiaclaw-schema/Cargo.toml": "17b2d39cdb2ad05c1155a1f1823ed3170f63492e59d9f54e8759d24a2082af87",
+    "crates/chimiaclaw-agent/Cargo.toml": "07b6610a968e868bc1543fad0ae780322aa37ab8a5cf9398dfb3b3206c7eb871",
+    "crates/chimiaclaw-skill/Cargo.toml": "d3b8d574e980125efb950fee6f3fc129dd0de05b4eb5f8479ffc8587a264e69b",
+    "crates/chimiaclaw-reactor/Cargo.toml": "cf8dc4d1d2e73b1e497029f44351affd6a025cdde1873f60f99c5bfb39d9c64f",
+    "crates/chimiaclaw-reputation/Cargo.toml": "38e780eeab5e90835e054e137ce3bf75fde1d733e43445ed574cda378f95592b",
+    "crates/chimiaclaw-node/Cargo.toml": "3fde3799fcd57c6c676fdd21ae92e86cc28907b19c02c31c455194df5d259b10",
+    "crates/chimiaclaw-artifact/Cargo.toml": "ad7d67f89a1ade3bfae351c9286df48c9ede08a420e2cca80cbe24c40e1f60a7",
+    "crates/chimiaclaw-artifact/src/file_store.rs": "3ffe8ba5eb36244d3e37a92a51cb71b1cc5557499781762877586dbf1049091f",
+    "crates/chimiaclaw-artifact/src/lib.rs": "891694eba9eaf37cb4c06e750488530c1a766404c232f79398ae021bcaa356d7",
+    "crates/chimiaclaw-node/src/lib.rs": "ce8e37815476117098bec0b95d004005d874dc9ae437ff3e877e9cc25e440ea4",
+    "crates/chimiaclaw-node/src/main.rs": "d201b6bbcfab209a64bd4d1f1627d9eb876ad1f7a91a10e9f4dcd82195ddc09d",
+    "crates/chimiaclaw-reputation/src/lib.rs": "3f3a022e63508136b14e0a2bcb4e415b031e8587eb6084f70d9272b0d14b2b0b",
+    "crates/chimiaclaw-reactor/src/lib.rs": "1b124ec8f2cc18570a609db6bb1195d5929510aca6248b72b8225d7a80b554bb",
+    "crates/chimiaclaw-skill/src/lib.rs": "007e9db3be08f1805f9ef4f64979c9c97e57a977f3ad2ebc4b2c13abe6a53326",
+    "crates/chimiaclaw-agent/src/lib.rs": "53660374d9ae14e499651a37b4f08bab9f5a8714bd946e6a200246ffafb6adcb",
+    "crates/chimiaclaw-schema/src/lib.rs": "0648edcec4440889709097afa32caed87383b607539e10ea2e4c9c65002cb9ba"
+  },
+  "workspace_note": "Reduced workspace metadata only; crate sources and Cargo manifests copied unchanged."
+}

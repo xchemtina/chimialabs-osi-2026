@@ -17,3 +17,13 @@ The existing [OpenAgents repository](https://github.com/xchemtina/ethglobal-open
 Compare arrangements while preserving their average populations, validate the relevant full forward calculations, and identify measurements that discriminate among alternatives. Each revision should retain its baseline, source identity, declared evaluator and unresolved limitations.
 
 Prepared for ChimiaLabs entry 190. No unpublished scientific asset is distributed here.
+
+## Public software companion — November 2026
+
+The separate public-data companion is now available for inspection. It uses a recorded PbSO4 result and contains no private copper assets.
+
+- [Selected work and browser demo](https://xchemtina.github.io/chimialabs-osi-2026/)
+- [Companion source and reproduction instructions](companion/README.md)
+- [Portfolio reading copy](PORTFOLIO.md)
+
+The original OSI entry remains a methods-only submission; this later companion release does not change what was submitted.

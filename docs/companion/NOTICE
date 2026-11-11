@@ -1,0 +1,29 @@
+ChimiaLabs public diffraction companion and portfolio
+Copyright 2026 ChimiaDAO and contributors
+
+The newly authored adapter, viewer, scripts, documentation and portfolio are
+licensed under Apache-2.0 (see LICENSE), except separately identified third-party
+material. Cristina Castro led ChimiaLabs with AI assistance. The OSI platform
+credits Cristina Castro and Larsen James Close; that credit does not specify
+individual authorship of this companion.
+
+Reused OpenAgents crates are unchanged from commit
+5946ab149a17aa4e58b12825a95c8090fe65ba75. Their original license and NOTICE are
+retained in companion/adapter/vendor/. Preserve those notices when reusing them.
+
+The GSAS-II fixture in companion/fixtures/pbso4/ retains the separate license
+and attribution in GSAS-II-LICENSE.txt and PROVENANCE.md. It is not relicensed
+under Apache-2.0. No GSAS-II binaries are included.
+
+This product includes software produced by UChicago Argonne, LLC under
+Contract No. DE-AC02-06CH11357 with the Department of Energy.
+
+The static site copies the same viewer, public fixture and recorded result;
+the same notices and license exceptions apply. Cargo registry dependencies
+retain their respective licenses and are not vendored in this release.
+
+Release preparation, 11 November 2026: selected the public companion from its
+22 October source package; clarified dates, deterministic replay and limitations;
+improved keyboard/narrow-screen presentation; added reproduction instructions,
+a portfolio and static-site packaging. Scientific inputs/results, vendored
+crate sources and signed historical artifacts are preserved byte-for-byte.
